@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DogMarket</string>
+    <string name="addpet_title">ADD A PET</string>
+    <string name="addpet_name">Name of Pet</string>
+    <string name="addpet_owner">Name of Owner</string>
+    <string name="addpet_location">Location</string>
+    <string name="addpet_gender">Gender</string>
+    <string name="addpet_age">Age</string>
+    <string name="addpet_breed">Breed</string>
+    <string name="addpet_pic">Image</string>
 </resources>

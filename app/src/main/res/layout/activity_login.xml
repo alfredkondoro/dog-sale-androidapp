@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    android:background="@drawable/back">
 
     <Button
         android:id="@+id/button"
@@ -26,6 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:ems="10"
+        android:background="@drawable/round_inputtext1"
+        android:padding="10dp"
         android:hint="Enter Password..."
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,8 +40,10 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:layout_marginTop="132dp"
         android:ems="10"
+        android:background="@drawable/round_inputtext1"
         android:hint="Enter Username..."
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
