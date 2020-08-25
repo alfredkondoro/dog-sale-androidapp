@@ -32,7 +32,7 @@ public class Login extends AppCompatActivity {
         emailId = findViewById (R.id.loginEmailText);
         password = findViewById (R.id.loginPasswordText);
         buttonSignIn = findViewById (R.id.loginButtonLogin);
-        signUpBtn = findViewById(R.id.logintext);
+        signUpBtn = findViewById(R.id.textView6);
 
         mAuthStateListener = new FirebaseAuth.AuthStateListener () {
 
