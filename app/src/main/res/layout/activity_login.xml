@@ -8,7 +8,7 @@
     android:background="@drawable/back">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loginButtonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -19,10 +19,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginPasswordText" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/loginPasswordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -34,10 +34,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/loginEmailText" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/loginEmailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
@@ -85,7 +85,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/loginButtonLogin" />
 
     <TextView
         android:id="@+id/textView6"
@@ -97,7 +97,7 @@
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/loginButtonLogin" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "856828202541",
+    "firebase_url": "https://dogsmarket-androidapp.firebaseio.com",
+    "project_id": "dogsmarket-androidapp",
+    "storage_bucket": "dogsmarket-androidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856828202541:android:d4c2e034cd67ef8e3472a4",
+        "android_client_info": {
+          "package_name": "com.alfredkondoro.dogmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856828202541-vv8am6f4j898sar2ge68nu13bh7tjk8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWcc8pnjwP_0VMVImxmRqUVLEzKegNoy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856828202541-vv8am6f4j898sar2ge68nu13bh7tjk8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

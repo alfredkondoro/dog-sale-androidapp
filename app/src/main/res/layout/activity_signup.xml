@@ -7,7 +7,7 @@
     tools:context=".Signup">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/registerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
@@ -19,24 +19,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
+        app:layout_constraintTop_toBottomOf="@+id/registerPasswordText" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/registerEmailText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
         android:background="@drawable/round_inputtext1"
         android:ems="10"
         android:hint="Enter Email..."
-        android:inputType="textPassword"
+        android:inputType="textEmailAddress"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
-        android:id="@+id/editTextTextPassword3"
+        android:id="@+id/registerPasswordText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+        app:layout_constraintTop_toBottomOf="@+id/registerEmailText" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -81,13 +81,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Already have an account? "
-        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/logintext"
         app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/registerButton" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/logintext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -96,5 +96,5 @@
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/registerButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
